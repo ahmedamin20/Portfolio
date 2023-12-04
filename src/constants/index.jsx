@@ -21,7 +21,7 @@ import {
   // drcode,
   // mui,
 } from "../assets";
-import drcode from "../assets/drcode.jpg";
+import drcode from "../assets/drcode.png";
 import mui from "../assets/mui.png";
 export const navLinks = [
   {
