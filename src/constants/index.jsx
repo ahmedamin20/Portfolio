@@ -18,8 +18,11 @@ import {
   sass,
   game,
   secure,
+  // drcode,
+  // mui,
 } from "../assets";
-
+import drcode from "../assets/drcode.jpg";
+import mui from "../assets/mui.png";
 export const navLinks = [
   {
     id: "about",
@@ -56,7 +59,6 @@ const services = [
     title: "Responsive",
     icon: backend,
   },
-
 ];
 
 const technologies = [
@@ -72,7 +74,6 @@ const technologies = [
     name: "JavaScript",
     icon: javascript,
   },
-
   {
     name: "React JS",
     icon: reactjs,
@@ -81,7 +82,6 @@ const technologies = [
     name: "Redux Toolkit",
     icon: redux,
   },
-
   {
     name: "git",
     icon: git,
@@ -93,10 +93,49 @@ const technologies = [
   {
     Name: "SASS",
     icon: sass,
-  }
+  },
+  {
+    Name: "MUI",
+    icon: mui,
+  },
 ];
 
 const experiences = [
+  {
+    title: "Frontend Develober",
+    company_name: "Dr code",
+    icon: drcode,
+    iconBg: "#eeeeee",
+    date: "may 2023 - present",
+    points: [
+      "Developing and maintaining web applications using React, MUI, ReduxToolKit and other related technologies.",
+      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+      "Implementing responsive design and ensuring cross-browser compatibility.",
+      "Participating in code reviews and providing constructive feedback to other developers.",
+      "projects:",
+      <a
+        style={{ color: "skyblue" }}
+        href="https://admin.ksbgarage.com/"
+        target="_blank"
+      >
+        KSB admin Dashboard
+      </a>,
+      <a
+        style={{ color: "skyblue" }}
+        href="https://endohup-production.vercel.app/"
+        target="_blank"
+      >
+        Edno-Hub Medical Website
+      </a>,
+      <a
+        style={{ color: "skyblue" }}
+        href="https://admin.eductor.org/"
+        target="_blank"
+      >
+        Educator admin Dashboard
+      </a>,
+    ],
+  },
   {
     title: "Frontend Developer",
     company_name: "Enactus Modern Academy",
@@ -105,12 +144,8 @@ const experiences = [
     date: "March 2021 - April 2022",
     points: [
       "Developing and maintaining web applications using HTML, Css, JavaScript and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
     ],
-  }
-
+  },
 ];
 
 const testimonials = [
@@ -168,7 +203,8 @@ const projects = [
   },
   {
     name: "Dark Mode",
-    description: "Responsive Dark Mode website to Book Hotels in Maldives By complete your Registration form ",
+    description:
+      "Responsive Dark Mode website to Book Hotels in Maldives By complete your Registration form ",
     tags: [
       {
         name: "HTML",
@@ -185,7 +221,7 @@ const projects = [
       {
         name: "Sass",
         color: "blue-text-gradient",
-      }
+      },
     ],
     image: dark,
     source_code_link: "https://github.com/ahmedamin20/Maldives.darkmode",
