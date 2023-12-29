@@ -102,7 +102,7 @@ const technologies = [
 
 const experiences = [
   {
-    title: "Frontend Develober",
+    title: "Frontend Developer",
     company_name: "Dr code",
     icon: drcode,
     iconBg: "#eeeeee",
